@@ -5,10 +5,11 @@ import UserDetails from "../UserDetails/UserDetails";
 const User = ({ user }) => {
   const { name, email, phone ,id} = user;
 
-  const navigate = useNavigate()
-  const handleNavigate =()=>{
-      navigate(`/user/${user.id}`)
+  const handleNavigate = () =>{
+    navigate(`/user/${user.id}`)
   }
+  
+  const navigate = useNavigate()
   return (
     <div
       style={{
