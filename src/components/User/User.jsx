@@ -1,5 +1,5 @@
 import React, { Suspense, useState } from "react";
-import { Link, useNavigate, useNavigation } from "react-router";
+import { Link, useNavigate} from "react-router";
 import UserDetails from "../UserDetails/UserDetails";
 import UserDetails2 from "../UserDetails2/UserDetails2";
 
